@@ -10,7 +10,7 @@ COPY package*.json ./
 # Install the dependencies
 RUN npm install || true
 
-# Copy the rest of your application
+# Copy the rest of your application to docker image from current folder, . -> to . of the docker image
 COPY . .
 
 # Expose the port Vite will run on
