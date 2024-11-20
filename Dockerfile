@@ -17,4 +17,4 @@ COPY . .
 EXPOSE 5173
 
 # Run Vite server in development mode
-CMD ["npm", "run", "dev"]
+# CMD ["npm", "run", "dev"]
