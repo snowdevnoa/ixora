@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Quicksand:wght@300..700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Quicksand', system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -15,6 +17,23 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  /*Theme color style variables */
+  --scarlet-300: #FE9488;
+  --scarlet-400: #EB7C70;
+  --scarlet-900: #E65242;
+
+  --periwinkle-400: #E9E8FA;
+  --periwinkle-500: #D2D1F5;
+  --periwinkle-600: #BCBAF1;
+  --periwinkle-700: #A5A3EC;
+  --periwinkle-800: #8F8CE7;
+
+  --pastel-green-600: #F2F9F1;
+  --pastel-green-700: #DDEEDF;
+  --pastel-green-800: #B6CDBD;
+  --pastel-green-900: #5C715E;
+
 }
 
 a {
@@ -28,7 +47,7 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
+  /* display: flex; */
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
@@ -63,9 +82,10 @@ button:focus-visible {
 }
 
 #app {
-  max-width: 1280px;
+  /* max-width: 1280px; */
+  width: 100vw;
   margin: 0 auto;
-  padding: 2rem;
+  /* padding: 2rem; */
   text-align: center;
 }
 
